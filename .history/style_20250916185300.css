@@ -34,7 +34,6 @@ h5,
 h6 {
   font-family: "Rubik", sans-serif;
 }
-
 body,
 h1,
 h2,
@@ -48,27 +47,17 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
-/* Max-width: max width of the image is 100% in whichever container it is */
 img {
   max-width: 100%;
   height: auto;
 }
-
 input,
 button,
 textarea,
 select {
   font: inherit;
-}
-
-/* Utilities */
-
-.display-none {
-  display: none;
 }

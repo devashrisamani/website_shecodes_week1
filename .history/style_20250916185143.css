@@ -20,55 +20,48 @@ html{
     scroll-behavior: smooth;
 }
 
-*,
-*:before,
-*:after {
+ *,
+ *:before,
+ *:after {
    box-sizing: inherit;
-}
+ }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Rubik", sans-serif;
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Rubik", sans-serif;
+ }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-}
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+   margin: 0;
+   padding: 0;
+ }
 
-ol,
-ul {
-  list-style: none;
-}
+ ol,
+ ul {
+   list-style: none;
+ }
 
-/* Max-width: max width of the image is 100% in whichever container it is */
-img {
-  max-width: 100%;
-  height: auto;
-}
+ img {
+   max-width: 100%;
+   height: auto;
+ }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Utilities */
-
-.display-none {
-  display: none;
-}
+ input,
+ button,
+ textarea,
+ select {
+   font: inherit;
+ }
