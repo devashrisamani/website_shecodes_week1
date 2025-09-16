@@ -176,6 +176,8 @@ article p {
 }
 
 /* Contact Form */
+
+
 .contact-form {
   padding: 48px 16px;
   border-radius: 10px;
@@ -211,15 +213,4 @@ article p {
   border: 0;
   margin-top: 8px;
   cursor: pointer;
-}
-
-/* footer */
-footer {
-  padding: 16px;
-  text-align: center;
-}
-
-.socials-icon {
-  width: 40px;
-  height: 40px;
 }

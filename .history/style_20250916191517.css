@@ -1,0 +1,91 @@
+/* Base HTML Styles */
+/* Always style in the increments of 4 for margin, padding and border*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+:root {
+    --brand: #8246af;
+   --action: #ffa300;
+   --white: #ffffff;
+   --base-light: #cdb5df;
+   --base-dark: #0d0711;
+   --black: #111111;
+    }
+
+/* CSS Reset */
+
+html{
+    box-sizing:border-box;
+    font-size: 16px; /*1rem = 16px*/
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Max-width: max width of the image is 100% in whichever container it is */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Utilities */
+.display-none {
+  display: none;
+}
+
+ /* Components */
+
+ /* btn-primary */
+ .btn-primary {
+   padding: 12px 16px;
+   display: inline-block;
+   text-decoration: none;
+   color: var(--black);
+   border-radius: 4px;
+   background-color: var(--action);
+   transition: all 0.3s ease;
+ }
+ 
+ .btn-primary:hover {
+   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+   transform: translateY(-4px);
+ }
