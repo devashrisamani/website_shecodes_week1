@@ -1,0 +1,12 @@
+/* styles.css */
+#container {
+  background-color: purple;
+  padding: 20px;
+  min-height: 500px;
+  display: flex;
+}
+.box {
+  background-color: peru;
+  margin: 20px;
+  padding: 20px;
+}
