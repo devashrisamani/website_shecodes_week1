@@ -282,8 +282,6 @@ article p {
   cursor: pointer;
 }
 
-/* contact form responsiveness */
-
 @media (min-width: 768px) {
   .contact-form h2 {
     text-align: center;
@@ -300,13 +298,13 @@ article p {
 footer {
   padding: 16px;
   text-align: center;
-  display: flex;
-  justify-content: space-around;
 }
 
 .socials-icon {
   width: 40px;
   height: 40px;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (min-width: 768px) {
