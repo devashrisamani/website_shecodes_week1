@@ -185,17 +185,6 @@ header button {
   color: var(--action);
 }
 
-@media (min-width: 768px) {
-  .hero {
-    padding: 120px 56px;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
-    max-width: 70%;
-  }
-}
-
 article {
   padding: 32px 16px;
   background-color: var(--base-light);

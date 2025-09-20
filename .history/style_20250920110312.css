@@ -150,7 +150,7 @@ header button {
 }
 
 /* Desktop nav media query */
-@media (min-width: 768px) {
+@media (min-width: 768 px) {
   .desktop-nav a {
     text-decoration: none;
     font-size: larger;
@@ -183,17 +183,6 @@ header button {
 
 .hero .hero-accent {
   color: var(--action);
-}
-
-@media (min-width: 768px) {
-  .hero {
-    padding: 120px 56px;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
-    max-width: 70%;
-  }
 }
 
 article {

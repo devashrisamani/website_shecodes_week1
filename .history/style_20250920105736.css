@@ -149,19 +149,6 @@ header button {
   display: none;
 }
 
-/* Desktop nav media query */
-@media (min-width: 768px) {
-  .desktop-nav a {
-    text-decoration: none;
-    font-size: larger;
-    color: var(--black);
-  }
-
-  .desktop-nav {
-    display: inline-block;
-  }
-}
-
 /* .hamburger-icon  */
 .hamburger-icon {
   height: 50px;
@@ -183,17 +170,6 @@ header button {
 
 .hero .hero-accent {
   color: var(--action);
-}
-
-@media (min-width: 768px) {
-  .hero {
-    padding: 120px 56px;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
-    max-width: 70%;
-  }
 }
 
 article {
